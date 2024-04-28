@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - IFMG Veículos Novos e Seminovos</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js">
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="divComprar">
+    <form>
+        <label for="cep">Digite seu cep:</label>
+        <input type="number" placeholder=" Ex:95555-000" id="cep" name="cep" required><br>
+
+        <label for="cartao">Digite o número do seu cartão de crédito:</label>
+        <input type="number" placeholder="" id="cartao" name="cartao" required><br>
+
+        <label for="agencia">Digite o número da sua agência:</label>
+        <input type="number" placeholder=" Ex-00.000-0" id="agencia" name="agencia" required><br>
+
+        <p> Selecione sua opçao: </p>
+
+        <select>
+            <option value="option" name="troca"> Troca </option>
+            <option value="option" name="financiamento"> Financiamento </option>
+            <option value="option" name="venda_consignacao"> Venda em Consignação </option>
+        </select>
+        
+        <br><br>
+
+        <button type="submit" onclick="comprar()">Finalizar Compra</button>
+        <button type="submit" onclick="voltar()"> Voltar </button>
+
+    </form>
+
+    </div>
+</body>
+
+</html>

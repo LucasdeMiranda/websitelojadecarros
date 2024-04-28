@@ -1,0 +1,268 @@
+    body {
+      /** aqui está sendo definida fonte geral de todo site ,margem padding e cor de fundo **/
+      font-family: Gill Sans MT Condensed;
+      ;
+      margin: 0;
+      padding: 0;
+
+      background-color: #e3e3e3;
+
+    }
+
+    input,
+    textarea {
+      /* estilizando inputs */
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      outline: none;
+      border-radius: 8px;
+
+
+    }
+
+
+    header {
+      background-color: #e3e3e3;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav {
+      /* barra do menu */
+      background-position: absolute;
+      background-color: #070606;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+      font-size: 50px;
+      font-family: Gill Sans MT Condensed;
+      box-sizing: border-box;
+      margin: 0px 0px 20px 0px;
+
+    }
+
+    nav a {
+      /** cor decoração padding e margem de nav a definidadas aqui **/
+      color: #fff;
+      text-decoration: none;
+      padding: 45px;
+
+
+
+    }
+
+    nav a:hover {
+      /** permide que quando deliszar o mause sobre a escrita ela mude de cor **/
+      color: #e37f57;
+    }
+
+
+    .titulo a:hover {
+      /** permide que quando deliszar o mause sobre a escrita ela mude de cor **/
+      color: #e37f57;
+    }
+
+
+    .texto a:hover {
+      /** permide que quando deliszar o mause sobre a escrita ela mude de cor **/
+      color: #e37f57;
+    }
+
+
+
+    section {
+      padding: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    article {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      padding: 20px;
+      width: 300px;
+      font-family: Gill Sans MT Condensed;
+      font-size: 25px;
+
+    }
+
+
+    label {
+      background-color: #e3e3e3;
+      font-family: Gill Sans MT Condensed;
+      font-size: 25px;
+      text-align: justify;
+    }
+
+    article img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+
+    button {
+      background-color: #e37f57;
+      /* Cor de fundo */
+      color: #070606;
+      /* Cor do texto */
+      padding: 10px 20px;
+      /* Espaçamento interno */
+      font-size: 16px;
+      /* Tamanho da fonte */
+      border: none;
+      /* Remover a borda padrão */
+      border-radius: 4px;
+      /* Borda arredondada */
+      cursor: pointer;
+      /* Cursor ao passar o mouse */
+      align-items: center;
+    }
+
+
+    form {
+      /** tamnho do formulário e margem definidas aqui **/
+      max-width: 400px;
+      margin: 0 auto;
+
+    }
+
+
+
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    .f {
+      background-color: #e37f57;
+      /* Cor de fundo */
+      color: #070606;
+      /* Cor do texto */
+      padding: 10px 120px;
+      /* Espaçamento interno */
+      font-size: 16px;
+      /* Tamanho da fonte */
+      border: none;
+      /* Remover a borda padrão */
+      border-radius: 4px;
+      /* Borda arredondada */
+      cursor: pointer;
+      /* Cursor ao passar o mouse */
+      align-items: center;
+    }
+
+
+    .titulo {
+      /** definindo cor de fundo margem e cor tamnho de fonte e e alinhamento dos elementos contidos na classe titulo **/
+      background-color: #e3e3e3;
+      color: #070606;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-family: Gill Sans MT Condensed;
+      font-size: 65px;
+      text-align: justify;
+    }
+
+    .texto {
+      /** definindo cor de fundo margem e cor tamnho de fonte e e alinhamento dos elementos contidos na classe texto **/
+
+      background-color: #e3e3e3;
+      color: #070606;
+      margin-top: 20px;
+      padding-left: 20px;
+      font-family: Gill Sans MT Condensed;
+      font-size: 23px;
+      text-align: justify;
+      margin-right: 0px;
+    }
+
+
+    footer {
+      background-color: #e37f57;
+      color: #070606;
+      text-align: center;
+      padding: 0px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 10vh;
+      font-family: Gill Sans MT Condensed;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+    }
+
+    footer>p {
+      align-content: center;
+    }
+
+    ul {
+      background-color: #e3e3e3;
+      color: #070606;
+      margin-left: 0px;
+      font-family: Gill Sans MT Condensed;
+      font-size: 40px;
+      text-align: justify;
+    }
+
+
+
+    li {
+      background-color: #e3e3e3;
+      color: #070606;
+      margin-left: 0;
+      font-family: Gill Sans MT Condensed;
+      font-size: 40px;
+      text-align: justify;
+    }
+
+
+    .mapBox {
+       /* mapa do google */
+      position: center;
+      width: 400px;
+      height: 300px;
+      background: #fff;
+      align-content: center;
+    }
+
+
+    .mapBox iframe {
+      /* mapa do google */
+      width: 100%;
+      height: 100%;
+      align-content: center;
+    }
+
+    .imagem {
+      height: 160px;
+    }
+
+    img {
+      height: 200px;
+    }
+
+    a {
+      text-decoration: none;
+
+    }
+
+
+    .divPaginaInicial {
+      margin: 30px 0px 0px 20px;
+
+    }
+
+    .divComprar {
+      margin: 100px 0px 0px 20px;
+
+    }
