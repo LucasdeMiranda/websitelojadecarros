@@ -42,3 +42,6 @@ function voltar() {
     /* Essa função permite que o cliete volte uma página */
     
 }
+function salvarlogin(){
+    
+}
