@@ -5,7 +5,7 @@
       margin: 0;
       padding: 0;
 
-      background-color: #fafafa;
+      background-color: #f0e4e4;
 
     }
 
@@ -24,7 +24,7 @@
 
 
     header {
-      background-color:  #fafafa;
+      background-color: #e3e3e3;
       color: #fff;
       text-align: center;
       padding: 10px;
@@ -94,7 +94,7 @@
 
 
     label {
-      background-color:  #fafafa;
+      background-color: #e3e3e3;
       font-family: Gill Sans MT Condensed;
       font-size: 25px;
       text-align: justify;
